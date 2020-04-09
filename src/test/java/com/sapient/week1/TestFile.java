@@ -23,25 +23,25 @@ public class TestFile
     
     public void testApp1()
     {
-        boolean x = CheckEven.Check(5);
+        boolean x = CheckEven.check(5);
         assertTrue( x == false );
     }
 
      public void testApp2()
     {
-        boolean x = CheckEven.Check(2);
+        boolean x = CheckEven.check(2);
         assertTrue( x == true );
     }
 
      public void testApp3()
     {
-        boolean x = CheckEven.Check(8);
+        boolean x = CheckEven.check(8);
         assertTrue( x == true );
     }
 
      public void testApp4()
     {
-        boolean x = CheckEven.Check(20);
+        boolean x = CheckEven.check(20);
         assertTrue( x == true );
     }
 
